@@ -26,11 +26,11 @@ export default function RootLayout({
       <html lang="en">
         <body
           className={
-            "min-h-screen w-full bg-gradient-to-br from-indigo-300 to-sky-500 text-white"
+            "min-h-screen h-full w-full bg-gradient-to-br from-teal-600 to-emerald-700 text-white"
           }
           style={poppins.style}
         >
-          <div className="absolute -z-10 min-h-screen w-full backdrop-blur-md bg-white/20" />
+          <div className="absolute -z-10 min-h-screen h-full w-full backdrop-blur-md bg-white/40" />
           {children}
         </body>
       </html>
